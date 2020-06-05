@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_sensores">
+
+    <fragment
+        android:id="@+id/nav_sensores"
+        android:name="com.example.sensoresfirebase.ui.sensores.SensoresFragment"
+        android:label="SensoresFirebase"
+        tools:layout="@layout/fragment_sensores" />
+
+    <fragment
+        android:id="@+id/nav_historial"
+        android:name="com.example.sensoresfirebase.ui.historial.HistorialFragment"
+        android:label="Historial"
+        tools:layout="@layout/fragment_historial" />
+
+</navigation>
